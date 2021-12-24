@@ -3,7 +3,7 @@ import pymysql,pymssql
 import cx_Oracle
 import redis
 import psycopg2
-from DBUtils.PooledDB import PooledDB
+from dbutils.pooled_db import PooledDB
 #Mysql数据库连接池
 class OPMysql(object):
     __pool = None
